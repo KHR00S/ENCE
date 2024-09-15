@@ -10,7 +10,7 @@ def app():
     if lang == "Bahasa Indonesia":
         # Indonesian content
         st.title("Dashboard Prediksi Kebakaran Melalui Citra Gambar")
-        st.markdown("Dashboard Prediksi Kebakaran Melalui Citra Gambar")
+        st.markdown("Selamat datang di Dashboard Prediksi Kebakaran Melalui Citra Gambar! Dashboard ini dirancang untuk membantu dalam mendeteksi potensi kebakaran hutan dan lahan secara cepat dan akurat melalui analisis citra gambar. Menggunakan teknologi pembelajaran mesin dan pemrosesan gambar, sistem ini mampu mengidentifikasi area berisiko tinggi berdasarkan data visual yang diunggah.")
         st.header("Deskripsi Projek")
         st.markdown("""
             Pembuatan dashboard ini merupakan salah satu luaran dari Big Data Competition Statistics Explore 2024 yang dikerjakan oleh Mahasiswa Universitas Syiah Kuala.
@@ -70,8 +70,8 @@ def app():
         st.header("Teknologi / Tools yang Digunakan")
         st.markdown("""
             - **Streamlit:** Untuk pembuatan antarmuka pengguna.
-            - **Pandas & R:** Untuk manipulasi dan analisis data.
-            - **ONNXRUNTIME:** Untuk menyimpan dan memuat model pembelajaran mesin.
+            - **Pandas:** Untuk manipulasi dan analisis data.
+            - **Onnxruntime:** Untuk menyimpan dan memuat model pembelajaran mesin.
         """)
 
         st.header("Kontak")
@@ -95,7 +95,7 @@ def app():
     else:
         # English content
         st.title("Forest Fire Prediction Dashboard Through Image Analysis")
-        st.markdown("Forest Fire Prediction Dashboard Through Image Analysis")
+        st.markdown("Welcome to the Fire Prediction Dashboard through Imagery! This dashboard is designed to assist in detecting potential forest and land fires quickly and accurately through image analysis. Using machine learning and image processing technologies, the system is able to identify high-risk areas based on uploaded visual data.")
         st.header("Project Description")
         st.markdown("""
             This dashboard is one of the outputs from the Big Data Competition Statistics Explore 2024, created by students of Syiah Kuala University.
@@ -155,8 +155,8 @@ def app():
         st.header("Technologies / Tools Used")
         st.markdown("""
             - **Streamlit:** For building the user interface.
-            - **Pandas & R:** For data manipulation and analysis.
-            - **ONNXRUNTIME:** For saving and loading machine learning models.
+            - **Pandas:** For data manipulation and analysis.
+            - **Onnxruntime:** For saving and loading machine learning models.
         """)
 
         st.header("Contact")
